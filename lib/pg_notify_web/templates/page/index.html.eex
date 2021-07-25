@@ -1,38 +1,64 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
-</section>
+<nav class="max-w-screen-lg container mx-auto">
+  <ul class="flex justify-end font-sans text-base p-3">
+    <li>
+      <a class="font-bold">Feed</a>
+      <a>Create Post</a>
+   </li>
+  </ul>
+</nav>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
-      </li>
-    </ul>
-  </article>
-</section>
+<div class="max-w-screen-lg mx-auto bg-purple-200 py-2 text-center text-sm">
+  <a href="#" class="inline-flex items-center justify-center text-purple-800 flex-grow-0">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+    <span class="font-black">
+      1
+    </span>
+    <span class="font-extralight tracking-tight ml-1">new post(s)</span>
+  </a>
+</div>
+
+<div class="max-w-screen-lg container mx-auto posts mt-10 p-10">
+  <h2 class="font-bold text-3xl">Feed</h2>
+  <div class="post bg-white py-5 px-5 rounded-xl shadow m-2.5">
+    <p>
+      The new version of the Hands-on Elixir & OTP book is now out Rocket
+
+      Includes a new chapter that deep dives into using the mox package to create more reliable tests without dependencies. 
+
+      Read online @ https://elixircryptobot.com
+
+      Don't forget to support by sponsoringHeart suit
+    </p>
+  </div>
+  <div class="post bg-white py-5 px-5 rounded-xl shadow m-2.5">
+    <p>
+    Woohoo! I found time to work through a much needed @github
+   Action flow: publishing to http://Hex.pm!
+
+    The first repo with this new functionality is https://github.com/beam-community/scrivener_headers
+
+    More repos and blog post to come!
+
+    #MyElixirStatus #ElixirLang #OpenSource #OpenLearning
+
+    </p>
+  </div>
+  <div class="post bg-white py-5 px-5 rounded-xl shadow m-2.5">
+    <p>
+    Mix.install/2 has radically changed how I learn about new hex packages.  It's now second nature to spin up IEx download a package and just try things. 
+    #elixirlang 
+    #MyElixirStatus
+    </p>
+  </div>
+  <div class="post bg-white py-5 px-5 rounded-xl shadow m-2.5">
+    <p>
+    While @elixirlang
+     is dynamically typed the compiler with its errors and warnings is already such a great refactoring help as compared to interpreted languages.
+
+    Like of course I don't have @rustlang
+     level confidence that it works, but it's a nice step up Star-struckMedium starGlowing starGreen heart
+
+    #myelixirstatus
+    </p>
+  </div>
+</div>
